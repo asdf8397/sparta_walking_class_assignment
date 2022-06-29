@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>React과제</title>
+    <link rel="stylesheet" href="../React과제CSS/React_assignment.css">
+    <script src="../React과제JS/React_assignment.js"></script>
+</head>
+<body>
+    <section>
+        <div>
+            <form>
+                    <p class="name">First name :</p>
+                    <input type="text" name="id" required placeholder="입력란을 작성하세요.">
+
+
+                    <p class="name">Last name :</p>
+                    <input type="text" placeholder="입력란을 작성하세요.">
+    <!--                <input type="submit">-->
+
+
+                    <p class="email">Email :</p>
+                    <input type="text" placeholder="입력란을 작성하세요.">
+    <!--                <input type="submit">-->
+
+            <div>
+                <label>
+                    Gender: <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> female
+                </label>
+            </div>
+            <div>
+                <label>
+                    Favorite: <input type="checkbox" name="frontend" value="program_HTML"> HTML
+                              <input type="checkbox" name="frontend" value="program_CSS"> JAVA
+                              <input type="checkbox" name="frontend" value="program_JS_Language"> JavaScript
+                </label>
+            </div>
+            <div> Browser:
+                <select name="" id="">
+                    <!-- 묶을때 select로 묶어야 됨 -->
+                    <option value="Browsers">크롬</option>
+                    <option value="1">FireFox</option>
+                    <option value="2">MS Edge</option>
+                    <option value="3">Opera</option>
+                    <option value="4">Vivaldi</option>
+                    <option value="5">네이버 웨일</option>
+                    <option value="6">Brave</option>
+                </select>
+            </div>
+            <div>
+                <p class="birthday_date">Birthday: <input type="date"></p>
+            </div>
+            <button onclick="showAlert()">제출</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
